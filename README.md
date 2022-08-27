@@ -7,11 +7,11 @@ pkg update && pkg upgrade
 
 
 
-pkg install python2
+pkg install python
 
-pip2 install mechanize
+pip install mechanize
 
-pip2 install requests
+pip install requests
 
 pkg install git
 
@@ -19,7 +19,7 @@ git clone https://github.com/4ndrii/smbf
 
 cd smbf
 
-python2 smbf.py
+python m.py
 
 
-Recode Boleh tapi izin dulu, tapi lebih bagus tambahin fitur sih:v
+Masih belom bisa login lewat parameter tolong bantuannya Suhu²
